@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Muhammad\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Muhammad\\OneDrive\\Documents\\CompSci\\Assessment\\CMP1903M Assessment 1 Base Code\\CMP1903M Assessment 1 Base Code\\CMP1903M Assessment 1 Base Code.csproj",
+      "projectName": "CMP1903M Assessment 1 Base Code",
+      "projectPath": "C:\\Users\\Muhammad\\OneDrive\\Documents\\CompSci\\Assessment\\CMP1903M Assessment 1 Base Code\\CMP1903M Assessment 1 Base Code\\CMP1903M Assessment 1 Base Code.csproj",
+      "packagesPath": "C:\\Users\\Muhammad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Muhammad\\OneDrive\\Documents\\CompSci\\Assessment\\CMP1903M Assessment 1 Base Code\\CMP1903M Assessment 1 Base Code\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Muhammad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

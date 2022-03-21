@@ -1,0 +1,20 @@
+List of words with a length greater than 7:
+Oriented
+programming
+programming
+paradigm
+abstract
+blueprint
+specific
+concrete
+represent
+categories
+attributes
+attributes
+instance
+attributes
+specific
+functions
+available
+functions
+specific
