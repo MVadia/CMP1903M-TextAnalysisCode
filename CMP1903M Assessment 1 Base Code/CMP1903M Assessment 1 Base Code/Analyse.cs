@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -110,4 +110,57 @@ namespace CMP1903M_Assessment_1_Base_Code
             return values;
         }
     }
+
+
+
+    //class to check if file analysis is correct
+    public class checkFileResult
+    {
+        //Arguments: List (int)
+        //Return: Null
+        //Checks if analysis values are correct, prints error to user if incorrect
+        public void result (List<int>values)
+        {
+            //integer values, containing expected results from textFile analysis
+            int checkSentence = 6;
+            int checkVowel = 189;
+            int checkUpper = 9;
+            int checkLower = 497;
+
+            //int values from program analysis
+            int sentenceCount = values[0];
+            int vowelCount = values[1];
+            int upperCount = values[3];
+            int lowerCount = values[4];
+
+
+            //try catch, checking if values in list match values from test file
+            try
+            {
+                if (sentenceCount != checkSentence)
+                {
+                    Console.WriteLine("Sentence count incorrect");
+                }
+                if (vowelCount != checkVowel)
+                {
+                    Console.WriteLine("Sentence count incorrect");
+                }
+                if (upperCount != checkUpper)
+                {
+                    Console.WriteLine("Upper Case character count incorrect");
+                }
+                if (lowerCount != checkLower)
+                {
+                    Console.WriteLine("Lower Case character count incorrect");
+                }
+            }
+            catch(SystemException)
+            {
+                Console.WriteLine("Count Error");//if list values are not int, or other error
+            }
+
+
+        }
+    }
 }
+
